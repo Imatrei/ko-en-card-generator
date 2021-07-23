@@ -10,7 +10,7 @@ if (!match) {
   return;
 }
 var url = regexp.exec(document.body.innerHTML)[1];
-var new_window = open("http://Imatrei.github.io/ko-en-card-generator/caption.py?url=" + encodeURIComponent(url));
+var new_window = open("http://Imatrei.github.io/ko-en-card-generator/caption.php?url=" + encodeURIComponent(url));
 """
 
 code = code.replace("$url", encodedURL)
