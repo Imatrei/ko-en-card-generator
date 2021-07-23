@@ -22,7 +22,7 @@ html = """
 
 html = html.replace("$code", code)
 
-path = os.path.abspath('test.html')
+path = os.path.abspath('index.html')
 url = 'file://' + path
 
 with open(path, 'w') as f:
